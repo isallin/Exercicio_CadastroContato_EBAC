@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: rgb(209, 231, 255);
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+header img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+form button {
+    background-color: rgb(67, 138, 219);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+form input {
+    font-size: 20px;
+    padding: 3px 5px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 3px;
+    border-radius: 2px;
+}
+
+table {
+    max-width: 500px;
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+table td {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
